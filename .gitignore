@@ -1,0 +1,29 @@
+# Secrets
+.env
+*.session
+*.session-journal
+
+# Data (raw/scraped data stays private)
+data/raw/*
+data/interim/*
+data/processed/*
+data/annotated/*
+!data/**/.gitkeep
+
+# Models and outputs
+models/*
+!models/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

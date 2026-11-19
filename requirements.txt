@@ -1,0 +1,25 @@
+# Collection
+telethon>=1.36
+python-dotenv>=1.0
+pyyaml>=6.0
+
+# Data
+pandas>=2.0
+pyarrow>=15.0
+
+# NLP / ML (installed now, used from Stage 3 onward)
+scikit-learn>=1.4
+transformers>=4.40
+torch>=2.2
+sentence-transformers>=3.0
+datasets>=2.19
+seqeval>=1.2
+langdetect>=1.0.9
+
+# Analytics and demo
+streamlit>=1.35
+plotly>=5.20
+
+# Dev
+pytest>=8.0
+jupyter>=1.0

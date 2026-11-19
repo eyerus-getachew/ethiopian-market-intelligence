@@ -1,0 +1,8 @@
+# Public Telegram channels to collect from (usernames without @).
+# Only add PUBLIC channels. Start with 3-5 fashion channels.
+channels: []
+#  - example_channel_username
+
+collection:
+  max_posts_per_channel: 500
+  download_media: false   # text first; images later if justified
